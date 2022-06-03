@@ -11,7 +11,7 @@ import lombok.Data;
 
 @Entity
 @Data
-@Table(name = "pokemon")
+@Table(name = "pokemondatabase")
 public class Pokemon {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
